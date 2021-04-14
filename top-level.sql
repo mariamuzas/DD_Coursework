@@ -12,7 +12,7 @@ select "Switching the foreign keys ON/OFF" as ``;
 --
 -- to drop the tables change this to '0'
 -- Enable checks:
-SET FOREIGN_KEY_CHECKS = 0;
+SET FOREIGN_KEY_CHECKS = 1;
 --
 select "2" as ``;
 source create_suppliers.sql;
