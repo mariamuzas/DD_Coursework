@@ -1,0 +1,1 @@
+select "Inside script <load_customers.sql>" as ``;
