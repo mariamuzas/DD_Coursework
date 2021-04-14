@@ -7,4 +7,4 @@ CREATE TABLE Suppliers (
 `phone` text NOT NULL,
 `postcode` text NULL,
 PRIMARY KEY(`supplier_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
