@@ -1,0 +1,8 @@
+relationships missing: suppliers to products and customers to customers_orders 
+
+data types incorrect: 
+    Suppliers: product_type string - in the data to load in the table is text 
+                phone string - the first 0s of the phones will be deleted if it's created as a int 
+
+    Customers: phone string - the first 0s of the phones will be deleted if it's created as a int 
+    
